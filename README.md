@@ -1,5 +1,3 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/boredanon/RushHourClusterDataset/blob/main/RushHour.ipynb)
-
 # Rush Hour Cluster Analysis Script
 
 This notebook contains code that clones, filters and visualizes an exhaustive dataset of Rush Hour puzzles. Furthermore, the repository also includes a C++ program that can be used to visualize boards within the cluster based on different metrics.
@@ -29,6 +27,5 @@ Figure 2: Indexed piece and type distribution. **Note:** Although possible, rows
 
 Then, by making a combination of 12 values of integer values in the range of 0 and 22, boards can be constructed. By combining the index of types, clusters are obtained, which comprise all boards with a similar board distribution. There are in total $6^{12}$ combinations to describe a cluster, though by the rules of Rush Hour, the third row can only be populated by a single horizontal $2\times1$ car, thereby removing $\frac{1}{6}$ of the combinations.
 
-## Notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/boredanon/RushHourClusterDataset/blob/main/RushHour.ipynb)
 
 The accompanying notebook in this repository clones the dataset of `362,797,056` rows, and provides code to analyze the dataset of Rush Hour clusters.
